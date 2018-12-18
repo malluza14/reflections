@@ -1,0 +1,28 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced? 
+
+Ele permite que você veja rápida e facilmente os dois arquivos, o que auxilia a detectar diferenças de maneira mais ágil. Se fosse necessário abrir um arquivo e depois o outro, a possibilidade de errar ou esquecer alguns dados de algum dos arquivos seria bem maior. 
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term? 
+
+Há muitas maneiras de isso ser útil. É possível retornar a esses arquivos mais tarde, caso já tenha encontrado um problema em um programa anterior, fato que ajuda a visualizar como o problema anterior foi contornado. Além disso, não há como perder o código que foi feito antes. 
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does? 
+
+ O ponto positivo é que cada commit fará sentido ao usuário, não permitindo que mudanças ocorram em linhas intermediárias do código, além de ser possível marcar cada mudança no commit. 
+ O ponto negativo provém de algum erro ou esquecimento da parte do usuário, que o inibe de publicar o commit na hora certa. 
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one cmmit, while others, like Google Docs, treat each file separately?
+
+ Devido ao fato de o Google Docs, por exemplo, não é gerado por meio de código, ou mesmo para pessoas que abrem várias páginas ao mesmo tempo, ação que gera lentidão na hora de carregar os arquivos selecionados. 
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+ Podemos usar o git log para ver atentamente todo o histórico do arquivo e, em seguida, o git diff irá comparar duas versões diferentes para ver o que exatamente mudou em cada versão.
+
+6. How might using version control make you more confident to make changes that could break something? 
+
+ Tal fato possibilitaria fazer mudanças sem preocupar em perder o código, por exemplo. Ou seja, é possível retornar ao código anteriot sempre que precisar e modificar o possível erro cometido na versão atual. 
+ 
+7. Now that you have your workspace set up, what do you want to try using Git for? 
+
+ O git será um ferramenta muito boa para trabalhos da faculdade. 
