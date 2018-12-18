@@ -1,0 +1,24 @@
+1.What happens when you initialize a repository? Why do you need to do it?
+  Quando inicializamos,um repositório vazio é criado, o qual não contém commit. Funciona dessa forma para que não inclua automaticamente os arquivos os quais não há interesse em acompanhar.
+
+2.How is the staging area different from the working directory and the repository? What value do you think it offers?
+  Área de preparação é a área onde preparam-se arquivos a serem confirmados. Somente arquivos nesta área serão incluídos na confirmação executada na próxima vez. Isso ajuda a dividir as mudanças no diretório de trabalho em vários commits, cada um consistindo em um grupo de mudanças que representam uma mudança lógica nos arquivos relevantes.
+
+3.How can you use the staging area to make sure you have one commit per logical change?
+  Primeiro, adicione os arquivos relacionados à primeira alteração lógica e, depois de certificar-se de ter preparado todos os arquivos, faça um commit. Em seguida, prepara os arquivos relacionados à segunda alteração lógica e assim por diante.
+
+4.What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+  Quando adicionar um recurso experimental enquanto mantém seu software funcionando.
+É impotante criar uma ramificação experimental para qualquer novo recurso que precise ser experimentado. Depois que a nova funcionalidade ficar estável o suficiente para ir para o branch master, será possível e mais seguro mesclar o branch experimental no master.
+
+5.How do the diagrams help you visualize the branch structure?
+  Com o uso do git log --graph (possivelmente com --oneline) [nomes das ramificações ...], é possível dizer como toda a estrutura da ramificação foi desenvolvida e em que ponto cada ramificação foi realmente criada. Isso permite a visão geral de toda a estrutura do projeto em que se está trabalhando, para que consigamos dizer em que está se concentrando especificamente e quando e qual ramificação mesclar seu trabalho.
+
+6.What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+  Todos os commits na segunda ramificação são mesclados na primeira ramificação, e a consolidação da replicação resluting se torna a nova cabeça da ramificação atual. O diagrama mostrado por git log --graph cleary mostra que o commit mesclado tem dois pais, que correspondem aos chefes anteriores de cada ramificação mesclada.
+
+7.What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Prós:
+  -Economia de tempo, especialmente quando cada mesclagem não conflitante é trivial. Dessa froma, a concentração em mesclages que realmente são conflitantes é feita com maior dedicação. 
+Contras:
+ É capaz de deixar de lado a situação potencialmente perigosa em que duas pessoas estão trabalhando no mesmo arquivo ao mesmo tempo.
