@@ -1,0 +1,20 @@
+1.When would you want to use a remote repository rather than keeping all your work  local?
+  Estou utilizando ultimamente os repositórios remotos para compartilhar meus aqrquivos com meu professor de uma disciplina de programação.Também é possível utiliza-lo para compartilhar meu códigocom alguém, mesmo que eles só querem ver o meu código e não contribuem para isto. Algo interessante e muito positivo sobre os repositórios remotos é há a possibilide de editar o código de vários computadores diferentes e manter o código atualizado em todos os computadores. Além disso, os controles remotos podem ser uma boa maneira de manter um backup do meu trabalho.
+
+2.Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+  É vantajoso "puxar" as alterações manualmente porque assim, quando estou trabalhando em código, isso não muda sem que eu espere. Por exemplo, se eu conheço o novo versão de algum código está quebrado, eu não poderia querer puxar essa mudança até que o problema fosse corrigido.
+
+3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
+  Garfos, clones e ramificações são todas as formas de adicionar novas alterações sem afetar a versão existente. Com as ramificações, as novas alterações são adicionadas ao mesmo repositório. Bifurcação e clonagem copiam um repositório inteiro par aum novo local. A diferença entre branches e clonagem é que a branche é uma construção especial feita pelo GitHub. Só é possível ramificar um GitHub  repositório para outro local no GitHub, enquanto posso clonar qualquer Git repositório para qualquer lugar que a que eu tenha acesso.
+  Eu uso ramificação para a maioria dos casos em que quero adicionar novas alterações a um repositório, mantendo uma referência fácil a uma versão anterior, especialmente ao colaborar com outras pessoas. Eu utilizo a opção clonar um repositório no GitHub quando eu necessito trabalhar nesse repositório localmente, em vez de usar o GitHub local na rede Internet. A branche de um repositório no GitHub é utlizada quando quero fazer mudanças nesse repositório público, mas não tenho permissão para modificar o original.
+
+4.What is the benefit of having a copy of the last known state of the remote stored locally?
+    Se ficar sem acesso à Internet por um tempo é possível atualizar a cópia local antes de sair. Eu posso fazer isso mesmo se eu não estiver pronto para mesclar essas mudanças em meus próprios ramos ainda. Então se for necessário, eu posso realizar a mesclagem enquanto off-line, ou eu preciso saber o que o versão remota é, em algum momento, eu tenho uma maneira fácil de acessá-lo.
+
+5.How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+
+Se eu tivesse que colaborar em um projeto de codificação sem usar o Git ou o GitHub (ou qualquer outra forma de controle de versão projetada para código), eu poderia sugerir que todos nós fazemos alterações em uma pasta compartilhada, por exemplo, uma pasta no Google Drive. A dificuldade estaria no fato que talvez se as modificações fossem realizadas simultaneamente por duas pessoas , elas se sobreporiam, prjudicando a passagem correta da mensagem.
+   
+6.When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
+ Ao trabalhar com um grupo grande, usando branches para acompanhar quais alterações já foram revisadas e aprovado é extremamente útil.
+   
